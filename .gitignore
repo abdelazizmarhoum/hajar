@@ -1,0 +1,29 @@
+# This is a comment - blank lines and lines starting with # are ignored
+
+# Ignore all files ending in .log anywhere in the repository
+*.log
+
+# Ignore a specific file
+debug.log
+
+# Ignore files in the root directory only, not in subdirectories
+/config.local.json
+
+# Ignore the 'build' directory and everything inside it
+/build/
+
+# Ignore the 'node_modules' directory often used for dependency caches
+node_modules/
+
+# Use the '!' prefix to negate a pattern, re-including a specific file
+# Exclude all files in a folder but re-include a specific one
+# Note: It's not possible to re-include a file if a parent directory of that file is excluded
+!/build/important.txt
+
+# Use two asterisks (**) to match files or directories in any subdirectory
+**/temp.file
+
+# Ignore specific operating system or editor-generated files
+.DS_Store
+Thumbs.db
+.idea/
