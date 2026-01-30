@@ -65,14 +65,36 @@ const translations = {
     },
     fleet: {
       heading: 'Notre Flotte',
+      mainTitle: 'La <span class="text-secondary">Flotte</span> d\'Excellence',
       description: 'Découvrez nos véhicules modernes et diversifiés, adaptés à tous types de missions.',
       filters: { all: 'Tous', luxury: 'Luxe', tourism: 'Touristique', adventure: 'Aventure' },
       details: 'Détails',
+      capacityLabel: 'Capacité',
+      luggageLabel: 'Bagages',
+      featuresLabel: 'Caractéristiques',
+      placesUnit: 'Places',
+      luggageUnit: 'Sacs',
       items: {
         berline: { name: 'Berline de Luxe', desc: 'Mercedes Classe E ou équivalent. Idéal pour transferts VIP et transport d\'affaires.' },
         van: { name: 'Van Premium', desc: 'Mercedes V-Class. Confort absolu pour les petits groupes et familles.' },
         minibus: { name: 'Minibus Touristique', desc: 'Sprinter VIP aménagé pour le confort sur longues distances et excursions.' },
         suv: { name: '4x4 Tout-Terrain', desc: 'Toyota Land Cruiser / Prado. Pour les circuits dans le désert et l\'Atlas.' }
+      },
+      vehicleFeatures: {
+        wifi: 'WiFi',
+        leather: 'Cuir',
+        ac: 'AC',
+        vip: 'VIP',
+        space: 'Grand Espace',
+        modularity: 'Modularité',
+        family: 'Famille',
+        group: 'Transport Groupe',
+        comfort: 'Confort Extra',
+        fridge: 'Mini Fridge',
+        tv: 'TV',
+        premium4x4: '4x4 Premium',
+        offroad: 'Tout Terrain',
+        atlas: 'Atlas/Désert'
       }
     },
     testimonials: {
@@ -174,14 +196,36 @@ const translations = {
     },
     fleet: {
       heading: 'Our Fleet',
+      mainTitle: 'The <span class="text-secondary">Fleet</span> of Excellence',
       description: 'Discover our modern and diverse vehicles, adapted to all types of missions.',
       filters: { all: 'All', luxury: 'Luxury', tourism: 'Tourism', adventure: 'Adventure' },
       details: 'Details',
+      capacityLabel: 'Capacity',
+      luggageLabel: 'Luggage',
+      featuresLabel: 'Features',
+      placesUnit: 'Seats',
+      luggageUnit: 'Bags',
       items: {
         berline: { name: 'Luxury Sedan', desc: 'Mercedes E-Class or equivalent. Ideal for VIP transfers and business transport.' },
         van: { name: 'Premium Van', desc: 'Mercedes V-Class. Absolute comfort for small groups and families.' },
         minibus: { name: 'Tourist Minibus', desc: 'VIP Sprinter fitted for comfort on long distances and excursions.' },
         suv: { name: '4x4 Off-Road', desc: 'Toyota Land Cruiser / Prado. For desert and Atlas circuits.' }
+      },
+      vehicleFeatures: {
+        wifi: 'WiFi',
+        leather: 'Leather Seats',
+        ac: 'AC',
+        vip: 'VIP Service',
+        space: 'Large Space',
+        modularity: 'Modularity',
+        family: 'Family Friendly',
+        group: 'Group Transport',
+        comfort: 'Extra Comfort',
+        fridge: 'Mini Fridge',
+        tv: 'TV',
+        premium4x4: 'Premium 4x4',
+        offroad: 'Off-Road',
+        atlas: 'Atlas/Desert'
       }
     },
     testimonials: {
@@ -283,14 +327,36 @@ const translations = {
     },
     fleet: {
       heading: 'Nuestra Flota',
+      mainTitle: 'La <span class="text-secondary">Flota</span> de Excelencia',
       description: 'Descubra nuestros vehículos modernos y diversos, adaptados a todo tipo de misiones.',
       filters: { all: 'Todos', luxury: 'Lujo', tourism: 'Turismo', adventure: 'Aventura' },
       details: 'Detalles',
+      capacityLabel: 'Capacidad',
+      luggageLabel: 'Equipaje',
+      featuresLabel: 'Especificaciones',
+      placesUnit: 'Plazas',
+      luggageUnit: 'Maletas',
       items: {
         berline: { name: 'Berlina de Lujo', desc: 'Mercedes Clase E o equivalente. Ideal para traslados VIP y transporte de negocios.' },
         van: { name: 'Van Premium', desc: 'Mercedes V-Class. Confort absoluto para pequeños grupos y familias.' },
         minibus: { name: 'Minibús Turístico', desc: 'Sprinter VIP acondicionado para el confort en largas distancias y excursiones.' },
         suv: { name: '4x4 Todo Terreno', desc: 'Toyota Land Cruiser / Prado. Para circuitos en el desierto y el Atlas.' }
+      },
+      vehicleFeatures: {
+        wifi: 'WiFi',
+        leather: 'Cuero',
+        ac: 'AC',
+        vip: 'VIP',
+        space: 'Gran Espacio',
+        modularity: 'Modularidad',
+        family: 'Familiar',
+        group: 'Transporte de Grupo',
+        comfort: 'Confort Extra',
+        fridge: 'Nevera',
+        tv: 'TV',
+        premium4x4: '4x4 Premium',
+        offroad: 'Todo Terreno',
+        atlas: 'Atlas/Desierto'
       }
     },
     testimonials: {

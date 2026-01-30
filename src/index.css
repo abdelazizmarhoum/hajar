@@ -6,6 +6,7 @@
   html {
     scroll-behavior: smooth;
   }
+
   body {
     @apply font-sans antialiased text-dark bg-light;
   }
@@ -15,9 +16,11 @@
   .glass {
     @apply bg-white/70 backdrop-blur-md border border-white/20;
   }
+
   .glass-dark {
     @apply bg-slate-900/80 backdrop-blur-md border border-slate-700/30;
   }
+
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
   }
